@@ -1,9 +1,9 @@
 <script setup lang="ts">
-  const test = ref('nininini')
+  
 </script>
 
 <template>
-  <span>{{ test }}</span>
+  <RouterView></RouterView>
 </template>
 
 <style scoped></style>
