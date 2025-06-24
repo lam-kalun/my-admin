@@ -1,12 +1,13 @@
 {
   "extends": "@tsconfig/node22/tsconfig.json",
   "include": [
-    "typings/node/*.d.ts",
+    "typings/app/*.d.ts",
     "typings/common/*.d.ts",
     "packages/**/*",
     "build/**/*",
     "vite.config.*",
-    "eslint.config.*"
+    "eslint.config.*",
+    "uno.config.*",
   ],
   "compilerOptions": {
     "noEmit": true,
